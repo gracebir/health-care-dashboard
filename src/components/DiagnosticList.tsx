@@ -27,7 +27,7 @@ const DiagnosticList: React.FC<TPatient> = ({ patient }) => {
                 <div className='h-36 overflow-y-auto scroll-item'>
                     <table className='min-w-full'>
                         <tbody>
-                            {diagnostices.map((diagnosis, i) => (
+                            {diagnostices?.map((diagnosis, i) => (
                                 <tr
                                     key={`${i}-diagnotiscs`}
                                     className='border-t'
