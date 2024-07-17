@@ -7,7 +7,7 @@ import DiagnosticList from "../components/DiagnosticList";
 
 const Diagnostic: React.FC<TPatient> = ({ patient }) => {
     return (
-        <div className='lg:col-span-2 sm:col-span-1 mt-[18px] flex flex-col gap-5'>
+        <div className='lg:col-span-2 sm:col-span-1 mt-[18px] flex flex-col gap-8'>
             <div className='bg-white shadow p-5 rounded-2xl flex flex-col gap-10'>
                 <h1 className='text-2xl font-bold'>Diagnosis History</h1>
                 <div className='flex flex-col gap-4'>

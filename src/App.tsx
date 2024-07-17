@@ -44,7 +44,7 @@ function App() {
         data && data.find((patient) => patient.name === "Jessica Taylor");
 
     return (
-        <div className='bg-lightgray min-h-[100vh] p-[18px] font-manrope text-dark-blue'>
+        <div className='bg-lightgray min-h-[100vh] w-full p-[18px] font-manrope text-dark-blue'>
             <Header />
             <main className='max-w-[1564px] min-h-[86vh]  mx-auto grid lg:grid-cols-4 sm:grid-cols-1 gap-[33px] mt-[18px]'>
                 {/* patients */}

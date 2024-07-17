@@ -9,11 +9,11 @@ import vertical from "../assets/icons/vert_tree_dots.svg";
 const Header = () => {
     const [active] = useState("Patients");
     return (
-        <header className='bg-white max-w-[1564px] h-[72px] flex justify-between items-center mx-auto shadow-md rounded-[70px] px-8'>
+        <header className='bg-white lg:max-w-[1564px] w-full h-[72px] flex justify-between items-center mx-auto shadow-md rounded-[70px] px-8'>
             <a href='#'>
                 <img src={logo} alt='logo' />
             </a>
-            <nav className='flex items-center space-x-4 font-bold text-sm'>
+            <nav className='lg:flex hidden items-center space-x-4 font-bold text-sm'>
                 {navbar_data.map((navtitem) => (
                     <a key={navtitem.id} href={navtitem.href}>
                         <div
@@ -27,7 +27,7 @@ const Header = () => {
                     </a>
                 ))}
             </nav>
-            <div className='flex items-center gap-4'>
+            <div className='lg:flex hidden items-center gap-4'>
                 <div className='flex gap-2 items-center'>
                     <img src={doctor} alt='doctor' />
                     <div className='flex flex-col'>

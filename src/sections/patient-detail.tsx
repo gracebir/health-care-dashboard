@@ -68,7 +68,7 @@ const PatientDetail: React.FC<TPatient> = ({ patient }) => {
             </div>
             <div className='bg-white shadow p-5 flex flex-col gap-7 rounded-2xl'>
                 <h1 className='text-2xl font-bold'>Lab Results</h1>
-                <div className='flex flex-col gap-6 h-[170px] overflow-auto scroll-item'>
+                <div className='flex flex-col gap-6 h-[180px] overflow-auto scroll-item'>
                     {patient?.lab_results?.map((item, i) => (
                         <div
                             className='flex justify-between  items-center pr-2'
